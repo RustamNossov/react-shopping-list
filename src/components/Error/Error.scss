@@ -1,0 +1,18 @@
+.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    &__pct {
+        margin-right: 20px;
+        width: 30%;
+    }
+
+    &__message {
+        width: 30%;
+        span {
+            display: block;
+        }
+    }
+}

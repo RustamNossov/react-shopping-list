@@ -1,0 +1,130 @@
+{
+  "lists": [
+    {
+      "id": "tubO8qV2G4sHW0s2",
+      "name": "LIst 1",
+      "creationDate": "27.01.2022 18:16:14",
+      "selected": false,
+      "searched": true
+    },
+    {
+      "id": "lzg1yIipQboadraN",
+      "name": "LIst 2",
+      "creationDate": "27.01.2022 18:16:17",
+      "selected": false,
+      "searched": true
+    },
+    {
+      "id": "17fFPnuZvzQ9tEW3",
+      "name": "List 3",
+      "creationDate": "27.01.2022 18:16:20",
+      "selected": false,
+      "searched": true
+    },
+    {
+      "id": "CTPbdyDUZqbOMI0T",
+      "name": "List 4",
+      "creationDate": "27.01.2022 18:16:24",
+      "selected": false,
+      "searched": true
+    },
+    {
+      "id": "s6AIBmLvFsQZcyyi",
+      "name": "LIst 5",
+      "creationDate": "27.01.2022 18:20:06",
+      "selected": false,
+      "searched": true
+    },
+    {
+      "id": "OILUpZk2DimuMzX6",
+      "name": "This is a very long name for t",
+      "creationDate": "27.01.2022 18:21:24",
+      "selected": false,
+      "searched": true
+    },
+    {
+      "id": "ZSi5NPfI1HOKTDAL",
+      "name": "DDDDDDHDHDDDHDHDDHDHHDDDHDDHD",
+      "creationDate": "27.01.2022 18:28:06",
+      "selected": false,
+      "searched": true
+    }
+  ],
+  "records": [
+    {
+      "id": "tubO8qV2G4sHW0s2",
+      "name": "LIst 1",
+      "creationDate": "27.01.2022 18:16:14",
+      "records": []
+    },
+    {
+      "id": "lzg1yIipQboadraN",
+      "name": "LIst 2",
+      "creationDate": "27.01.2022 18:16:17",
+      "records": []
+    },
+    {
+      "id": "17fFPnuZvzQ9tEW3",
+      "name": "List 3",
+      "creationDate": "27.01.2022 18:16:20",
+      "records": []
+    },
+    {
+      "id": "CTPbdyDUZqbOMI0T",
+      "name": "List 4",
+      "creationDate": "27.01.2022 18:16:24",
+      "records": [
+        {
+          "id": "PgP5r6TxLCCsgVl8",
+          "name": "Item 1",
+          "creationDate": "27.01.2022 18:17:33",
+          "selected": false,
+          "searched": true,
+          "isDone": false
+        },
+        {
+          "id": "nnUTQZa9aCJ5zAan",
+          "name": "Item 3",
+          "creationDate": "27.01.2022 18:17:38",
+          "selected": false,
+          "searched": true,
+          "isDone": false
+        },
+        {
+          "id": "nNZKWLCozeKklGup",
+          "name": "Item 4",
+          "creationDate": "27.01.2022 18:17:42",
+          "selected": false,
+          "searched": true,
+          "isDone": false
+        },
+        {
+          "id": "agslTwDXuD8qUZrG",
+          "name": "Item 5",
+          "creationDate": "27.01.2022 18:20:20",
+          "selected": false,
+          "searched": true,
+          "isDone": false
+        }
+      ]
+    },
+    {
+      "id": "s6AIBmLvFsQZcyyi",
+      "name": "LIst 5",
+      "creationDate": "27.01.2022 18:20:06",
+      "records": []
+    },
+    {
+      "id": "OILUpZk2DimuMzX6",
+      "name": "This is a very long name for t",
+      "creationDate": "27.01.2022 18:21:24",
+      "records": []
+    },
+    {
+      "id": "ZSi5NPfI1HOKTDAL",
+      "name": "DDDDDDHDHDDDHDHDDHDHHDDDHDDHD",
+      "creationDate": "27.01.2022 18:28:06",
+      "records": []
+    }
+  ]
+}

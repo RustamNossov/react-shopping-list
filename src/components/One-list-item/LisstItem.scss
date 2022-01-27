@@ -1,0 +1,133 @@
+.list-item {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1ebe9;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 5px 0;
+    transition: all 0.3s;
+        &:hover {
+            
+                position:relative;
+                // width:40%;
+                // padding:1em;
+                // margin:2em 10px 4em;
+                // background:#fff;
+                -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                   -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                        box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                -webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                   -moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                        box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+                top: -1px;
+             
+            &:before,
+            &:after {
+                content:"";
+                position:absolute;
+                z-index:-2;
+            }
+        }
+
+    &__checkbox {
+        margin-left: 10px;
+        
+        
+    }
+
+    &__name {
+        color: #757575;
+        word-wrap:break-word;
+
+        &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+            opacity: 1;
+        }
+        
+
+    }
+
+    &__group {
+        flex-grow: 3;
+        width: 50%;
+        padding: 0 10px;
+    }
+
+    &__creation-date{
+        font-size: .6em;
+        font-style: italic;
+        color: #757575;
+    }
+
+    &__delete {
+            padding: 5px;
+            margin-right: 10px;
+            border: none;
+            background: none;
+            
+
+            img {
+                height: 21.5px;
+                width: 21.5px;
+            }
+
+            &:hover {
+                            cursor: pointer;
+                            opacity: 1;
+                        }
+            &:active {
+                position: relative;
+                left: 1px;
+                top: 1px;
+                }
+        
+    }
+
+    &__done {
+        opacity: 0.5;
+    }
+
+    &__done-mark {
+        height: 21.5px;
+    }
+
+    &__name-done {
+        text-decoration: line-through;
+    }
+
+}
+
+
+// &__add {
+//     display: flex;
+//     justify-content: space-between;
+//     background-color: #f1ebe9;
+//     border-radius: 20px;
+//     margin-bottom: 20px;
+
+//     &-input {
+//         width: 90%;
+//         border: none;
+//         background: none;
+//         padding: 0 5% 0 5%;
+//         outline: none;
+
+
+//     }
+//     &-icon {
+//         width: 5%;
+//         padding: 5px;
+//         margin-right: 1%;
+//         border: none;
+//         background: none;
+        
+//         &:hover {
+//             cursor: pointer;
+//         }
+
+        
+//     }
+// }
