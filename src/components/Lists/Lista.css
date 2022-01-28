@@ -139,4 +139,11 @@
   display: -ms-flexbox;
   display: flex;
 }
+
+@media (max-width: 500px) {
+  .base {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+}
 /*# sourceMappingURL=Lista.css.map */

@@ -17,8 +17,12 @@ body {
   background-size: auto 70vh;
   background-position: 60% 0%;
   padding: 0 5vw;
+}
 
-  
+@media (max-width: 500px) { 
+  body { 
+    padding: 0;
+  }
 }
 
 h1 {
