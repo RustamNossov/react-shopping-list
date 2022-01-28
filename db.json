@@ -34,7 +34,48 @@
       "id": "zBt6TMBU9QSCwulE",
       "name": "List 1",
       "creationDate": "29.01.2022 14:09:45",
-      "records": []
+      "records": [
+        {
+          "id": "v8TBz7SGppk67DFi",
+          "name": "Item 1",
+          "creationDate": "29.01.2022 14:50:11",
+          "selected": false,
+          "searched": true,
+          "isDone": false
+        },
+        {
+          "id": "FU9wXVG6au4FXT9k",
+          "name": "Item 2",
+          "creationDate": "29.01.2022 14:50:14",
+          "selected": false,
+          "searched": true,
+          "isDone": true
+        },
+        {
+          "id": "FFFJ6JLPROn5Bv4R",
+          "name": "Item 3",
+          "creationDate": "29.01.2022 14:50:17",
+          "selected": false,
+          "searched": true,
+          "isDone": true
+        },
+        {
+          "id": "NBLHOL967TAtOHx1",
+          "name": "Item 4",
+          "creationDate": "29.01.2022 14:50:20",
+          "selected": false,
+          "searched": true,
+          "isDone": false
+        },
+        {
+          "id": "HDrEIEsmfzid1fu6",
+          "name": "Item 5",
+          "creationDate": "29.01.2022 14:50:25",
+          "selected": false,
+          "searched": true,
+          "isDone": false
+        }
+      ]
     },
     {
       "id": "EGKz1eTAJKuO9h9n",
