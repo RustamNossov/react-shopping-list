@@ -114,6 +114,7 @@ const withList = (BaseComponent, ListName) => {
                             .then(deleteData(`records/${item.id}`))
                     })
                 }
+                
                 onGetAllLists();
                 deleteId.current = null; 
         }
@@ -122,9 +123,7 @@ const withList = (BaseComponent, ListName) => {
             
             setModalIsOpen(false)
             const newListDB = deleteId.current ? listsDB.filter(item => item.id===deleteId.current) : listsDB.filter(item => item.selected);
-            onDeleted(newListDB)
-            setFindValue('')
-            
+            onDeleted(newListDB)  
         }
 
         //=========== work with modal =============//

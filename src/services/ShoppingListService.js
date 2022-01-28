@@ -7,10 +7,10 @@ const useShoppingListService = () => {
 
     
 
-    const getAllLists = async () => {
-        const res = await request(`${_apiBase}lists`)
-        return res
-    }
+    // const getAllLists = async () => {
+    //     const res = await request(`${_apiBase}lists`)
+    //     return res
+    // }
     
 
     const getAList = async(name) => {
@@ -18,11 +18,11 @@ const useShoppingListService = () => {
         return res
     }
 
-    const putData = async(name,  body) => {
+    // const putData = async(name,  body) => {
         
-        const res = await request(`${_apiBase}${name}`, 'PUT', body)
-        return res
-    }
+    //     const res = await request(`${_apiBase}${name}`, 'PUT', body)
+    //     return res
+    // }
 
     const postData = async(name, body) => {
         
@@ -42,6 +42,6 @@ const useShoppingListService = () => {
         return res
     }
 
-    return {loading, error, errorRedirect, clearError, getAllLists, getAList, putData, postData, patchData, deleteData}
+    return {loading, error, errorRedirect, clearError,  getAList, postData, patchData, deleteData}
 }
 export default useShoppingListService;
