@@ -1,66 +1,58 @@
- .items-list.base {
-    margin: 10vh auto 0;
-    height: 90vh;
- } 
+.items-list.base {
+  margin: 10vh auto 0;
+  height: 90vh;
+}
 
- .items-list {
-    
-    
-    
+.items-list {
+  &__first-line {
+    display: flex;
+    align-items: center;
+    img {
+      height: 48px;
+    }
+  }
 
-   &__first-line {
-      display: flex;
-      align-items: center;
-      img {
-         height: 48px;
-      }
-   }
+  &__list-name {
+    word-wrap: break-word;
+    font-size: 2em;
+    width: 80%;
+    line-height: 1em;
+    margin: 0 0 0 10px;
+  }
 
-   &__list-name {
-      word-wrap:break-word;
-      font-size: 2em;
-      width: 80%;
-      line-height: 1em;
-      margin: 0 0 0 10px;
-   }
+  &__creation-date {
+    font-size: 0.7em;
+    font-style: italic;
+    margin-bottom: 10px;
+  }
 
-   &__creation-date {
-      font-size: 0.7em;
-      font-style: italic;
-      margin-bottom: 10px;
-   }
+  &__records-amount {
+    text-align: right;
+    margin-bottom: 10px;
+  }
 
-   &__records-amount {
-      text-align: right;
-      margin-bottom: 10px;
-   }
+  &__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
 
-   &__group {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 10px;
+    label {
+      font-size: 12px;
+      line-height: 5px;
 
-      label {
-         
-         font-size: 12px;
-         line-height: 5px;
-
-         span {
-            display: block;
-         }
-
-         &:hover {
-            cursor: pointer;
-         }
-         
+      span {
+        display: block;
       }
 
-      input {
-         &:hover {
-            cursor: pointer;
-         }
+      &:hover {
+        cursor: pointer;
       }
+    }
 
-      
-   }
- }
+    input {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

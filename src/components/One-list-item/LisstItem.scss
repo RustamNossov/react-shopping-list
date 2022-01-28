@@ -11,10 +11,6 @@
         &:hover {
             
                 position:relative;
-                // width:40%;
-                // padding:1em;
-                // margin:2em 10px 4em;
-                // background:#fff;
                 -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
                    -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
                         box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
@@ -99,35 +95,3 @@
     }
 
 }
-
-
-// &__add {
-//     display: flex;
-//     justify-content: space-between;
-//     background-color: #f1ebe9;
-//     border-radius: 20px;
-//     margin-bottom: 20px;
-
-//     &-input {
-//         width: 90%;
-//         border: none;
-//         background: none;
-//         padding: 0 5% 0 5%;
-//         outline: none;
-
-
-//     }
-//     &-icon {
-//         width: 5%;
-//         padding: 5px;
-//         margin-right: 1%;
-//         border: none;
-//         background: none;
-        
-//         &:hover {
-//             cursor: pointer;
-//         }
-
-        
-//     }
-// }

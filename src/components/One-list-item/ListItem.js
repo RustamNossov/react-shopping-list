@@ -8,7 +8,6 @@ import doneIcon from '../../resources/done-icon.svg';
 
 function ListItem(props) {
     
-    // console.log(props)
     const {type, onChecked, onDeletedItem, onDone, data} = props;
 
     const {id, name, creationDate, selected, isDone} = data;

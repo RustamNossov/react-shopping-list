@@ -5,24 +5,10 @@ const useShoppingListService = () => {
     const { loading, request, error, clearError, errorRedirect} = useHttp();
     const _apiBase = 'http://localhost:3001/'; 
 
-    
-
-    // const getAllLists = async () => {
-    //     const res = await request(`${_apiBase}lists`)
-    //     return res
-    // }
-    
-
     const getAList = async(name) => {
         const res = await request(`${_apiBase}${name}`)
         return res
     }
-
-    // const putData = async(name,  body) => {
-        
-    //     const res = await request(`${_apiBase}${name}`, 'PUT', body)
-    //     return res
-    // }
 
     const postData = async(name, body) => {
         

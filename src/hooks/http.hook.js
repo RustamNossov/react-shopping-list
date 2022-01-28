@@ -1,7 +1,4 @@
-import React, { useCallback, useState } from "react";
-import { Navigate } from "react-router-dom";
-
-import ErrorPage from "../components/ErrorPage/ErrorPage";
+import { useCallback, useState } from "react";
 
 export const useHttp = () => {
     const [loading, setLoading] = useState(false)
@@ -17,7 +14,6 @@ console.log('error:',error )
             const response = await fetch(url, {method, body: body, headers});
              if (!response.ok) {
                     setErrorRedirect(true)
-                    //throw new Error(`Could not fetch ${url}, status: ${response.status}`);
                 }
             const data = await response.json() 
 
