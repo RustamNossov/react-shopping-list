@@ -36,16 +36,9 @@
       "searched": true
     },
     {
-      "id": "OILUpZk2DimuMzX6",
-      "name": "This is a very long name for t",
-      "creationDate": "27.01.2022 18:21:24",
-      "selected": false,
-      "searched": true
-    },
-    {
-      "id": "ZSi5NPfI1HOKTDAL",
-      "name": "DDDDDDHDHDDDHDHDDHDHHDDDHDDHD",
-      "creationDate": "27.01.2022 18:28:06",
+      "id": "hZQlhgx7boKmdMSJ",
+      "name": "List 6",
+      "creationDate": "28.01.2022 18:06:31",
       "selected": false,
       "searched": true
     }
@@ -115,16 +108,19 @@
       "records": []
     },
     {
-      "id": "OILUpZk2DimuMzX6",
-      "name": "This is a very long name for t",
-      "creationDate": "27.01.2022 18:21:24",
-      "records": []
-    },
-    {
-      "id": "ZSi5NPfI1HOKTDAL",
-      "name": "DDDDDDHDHDDDHDHDDHDHHDDDHDDHD",
-      "creationDate": "27.01.2022 18:28:06",
-      "records": []
+      "id": "hZQlhgx7boKmdMSJ",
+      "name": "List 6",
+      "creationDate": "28.01.2022 18:06:31",
+      "records": [
+        {
+          "id": "7NZPZd7VlebMFsaT",
+          "name": "dfsdf",
+          "creationDate": "29.01.2022 10:47:17",
+          "selected": false,
+          "searched": true,
+          "isDone": false
+        }
+      ]
     }
   ]
 }

@@ -23,6 +23,7 @@
 
 .modal__container h3 {
   margin: 10px 40px 10px 40px;
+  text-align: center;
 }
 
 .modal__buttons {
@@ -33,5 +34,17 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .modal__container h3 {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 576px) {
+  .modal__container h3 {
+    font-size: .8em;
+  }
 }
 /*# sourceMappingURL=Modal.css.map */

@@ -2,7 +2,7 @@ import { useHttp } from "../hooks/http.hook";
 
 const useShoppingListService = () => {
 
-    const { loading, request, error, clearError} = useHttp();
+    const { loading, request, error, clearError, errorRedirect} = useHttp();
     const _apiBase = 'http://localhost:3001/'; 
 
     
@@ -42,6 +42,6 @@ const useShoppingListService = () => {
         return res
     }
 
-    return {loading, error, clearError, getAllLists, getAList, putData, postData, patchData, deleteData}
+    return {loading, error, errorRedirect, clearError, getAllLists, getAList, putData, postData, patchData, deleteData}
 }
 export default useShoppingListService;

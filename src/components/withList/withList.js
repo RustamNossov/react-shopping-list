@@ -20,11 +20,11 @@ const withList = (BaseComponent, ListName) => {
         const deleteId = useRef(null);
         const modalText = useRef(null);
         const listId = useParams().listname;
-        const link = listId ? 'records' : 'lists'
+        const link = listId ? 'records' : 'lists';
         const rand = require("random-key");
 
 
-        const {error, loading, getAList, postData, patchData, deleteData} = useShoppingListService();
+        const {error, errorRedirect, loading, getAList, postData, patchData, deleteData} = useShoppingListService();
 
         
         //============== fetching data ==============//
@@ -317,12 +317,12 @@ const withList = (BaseComponent, ListName) => {
                 {...props}
                 loading={loading} 
                 error={error}
+                errorRedirect ={errorRedirect}
                 elements={elements} 
                 panelClasses={panelClasses} 
                 onSelectAll={onSelectAll} 
                 onOpenModal={onOpenModal} 
                 modalIsOpen={modalIsOpen} 
-                //listsDB={listsDB} 
                 itemDescription={itemDescription}
                 onDeleteSelectedItems={onDeleteSelectedItems} 
                 setModalIsOpen={setModalIsOpen}
