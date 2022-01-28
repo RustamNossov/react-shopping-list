@@ -9,6 +9,7 @@ The application allows you to create lists for shopping, tasks and so on.
 ## Used technologies
 
 The application was created using the JavaScript library - React.
+
 I used: 
 * functional components
 * responsive design
