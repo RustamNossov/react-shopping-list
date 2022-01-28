@@ -27,6 +27,13 @@
       "creationDate": "29.01.2022 14:09:54",
       "selected": false,
       "searched": true
+    },
+    {
+      "id": "MrQXR6bSNM4cZFET",
+      "name": "List with very long name",
+      "creationDate": "29.01.2022 16:03:27",
+      "selected": false,
+      "searched": true
     }
   ],
   "records": [
@@ -94,6 +101,21 @@
       "name": "LIst 4",
       "creationDate": "29.01.2022 14:09:54",
       "records": []
+    },
+    {
+      "id": "MrQXR6bSNM4cZFET",
+      "name": "List with very long name",
+      "creationDate": "29.01.2022 16:03:27",
+      "records": [
+        {
+          "id": "aiySMBkUEZSm1Ktl",
+          "name": "Item 1",
+          "creationDate": "29.01.2022 16:03:45",
+          "selected": false,
+          "searched": true,
+          "isDone": false
+        }
+      ]
     }
   ]
 }
